@@ -1,0 +1,26 @@
+{
+  "name": "tuesday-mcp",
+  "version": "1.0.0",
+  "description": "Tuesday MCP server for AI-powered lead generation API integration",
+  "main": "dist/index.js",
+  "bin": {
+    "tuesday-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "keywords": ["mcp", "tuesday", "api", "ai", "lead-generation"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.3",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
